@@ -102,13 +102,8 @@ app.get("/chats/:id/edit",async(req,res)=>{
   res.redirect("/chats");
  });
 
-// app.delete("/chats/:id", async (req, res) => {
-//   let { id } = req.params;
-//   let deletedChat = await Chat.findByIdAndDelete(id);
-//   console.log(deletedChat);
-//   res.redirect("/chats");
-// });
 
+ //changes
 
 
 
